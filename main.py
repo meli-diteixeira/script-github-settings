@@ -19,7 +19,7 @@ r = requests.put(
         'Authorization': 'Token {0}'.format(data.api_token)
     },
     json = {
-        "enforce_admins": Null
+        "enforce_admins": None
     }
 )
 print(r.status_code)
