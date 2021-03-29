@@ -21,10 +21,10 @@ r = requests.put(
     json = {
         "restrictions": {
             "users": [
-              "bertrandmartel"
+              "*"
             ],
             "teams": [
-              "my-team"
+              "*"
             ]
         },
         "enforce_admins": Null,
