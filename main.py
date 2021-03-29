@@ -27,9 +27,7 @@ r = requests.put(
               "my-team"
             ]
         },
-        "required_status_checks": None,
-        "enforce_admins": None,
-        "required_pull_request_reviews": None
+        "enforce_admins": Null,
     }
 )
 print(r.status_code)
