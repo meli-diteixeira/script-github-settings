@@ -19,15 +19,7 @@ r = requests.put(
         'Authorization': 'Token {0}'.format(data.api_token)
     },
     json = {
-        "restrictions": {
-            "users": [
-              "*"
-            ],
-            "teams": [
-              "*"
-            ]
-        },
-        "enforce_admins": Null,
+        "enforce_admins": Null
     }
 )
 print(r.status_code)
